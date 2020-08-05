@@ -1,5 +1,6 @@
 # Welcome to Exercism
-Repository for Exercises to practice Logic by https://exercism.io/
+
+Hi everyone I am Vittoria, and I start to resolve some exercises to practice my logic by https://exercism.io/
 
 ## Java Track
 
