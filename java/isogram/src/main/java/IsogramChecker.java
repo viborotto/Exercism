@@ -1,7 +1,8 @@
 class IsogramChecker {
 
     boolean isIsogram(String phrase) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+      phrase = phrase.replaceAll("[\\W]", "").toLowerCase();
+      return phrase.length() == phrase.chars().distinct().count() ? true : false;
     }
 
 }
